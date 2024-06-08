@@ -1,0 +1,33 @@
+{
+  "name": "lellolbot",
+  "version": "1.0.0",
+  "description": "Just an Twitch Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "twitch",
+    "bot",
+    "7tv"
+  ],
+  "author": "lellolidk",
+  "license": "MIT",
+  "dependencies": {
+    "@kararty/dank-twitch-irc": "6.2.0",
+    "axios": "^1.6.8",
+    "fs": "^0.0.1-security",
+    "got": "^11.8.6",
+    "humanize-duration": "^3.30.0",
+    "ioredis": "^5.3.2",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.1.29",
+    "node-fetch": "^2.7.0",
+    "node-wmi": "^0.0.5",
+    "os-utils": "^0.0.14",
+    "request": "^2.88.2",
+    "spotify-web-api-node": "^5.0.2",
+    "sqlite3": "^5.1.7",
+    "systeminformation": "^5.22.9"
+  }
+}

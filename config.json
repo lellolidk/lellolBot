@@ -1,0 +1,30 @@
+{
+  "twitch": {
+    "username": "lellolidk",
+    "id": "636823070",
+    "oauth": "",
+    "bearertoken": "",
+    "token": "",
+    "clientid": "",
+    "clientidgql": "",
+    "clientsecret": "",
+    "bot": {
+      "prefix": "-",
+      "owners": ["636823070"],
+      "admins": [""]
+    },
+    "helix": {
+      "clientid": "",
+      "token": ""
+    }
+  },
+  "sevenTV": {
+    "oauth": ""
+  },
+  "spotify": {
+    "clientid": "",
+    "clientsecret": "",
+    "refreshtoken": "",
+    "accesstoken": ""
+  }
+}
