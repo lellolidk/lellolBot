@@ -209,7 +209,7 @@ client.on('PRIVMSG', async (userstate) => {
   try {
     channelConfig = JSON.parse(fs.readFileSync(channelConfigFilePath, 'utf8'));
   } catch (error) {
-    console.error('Fehler beim Laden der Kanal-Konfigurationsdatei:', error);
+    console.error('Error:', error);
     channelConfig = {};
   }
 
