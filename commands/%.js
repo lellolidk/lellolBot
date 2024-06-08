@@ -22,7 +22,7 @@ module.exports = {
             const percentage = Math.floor(randomNumber);
             return { text: `${percentage}%`, reply: true };
         } catch (error) {
-            console.error('Error executing command:', error);
+            console.error('Error:', error);
             return { text: 'FeelsBadMan 👎 Es ist leider ein Fehler aufgetreten wenn das weiterhin passiert wende dich an @lellolidk ', reply: true };
         }
     }
